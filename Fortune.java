@@ -17,7 +17,7 @@ public class Fortune {
 		double fnl = Math.random();
 
 		if( fnl >= 0.7) {
-			System.out.println("☆大吉！");
+			System.out.println("大吉！");
 		}else if( fnl >= 0.4) {
 			System.out.println("中吉！");
 		}else if( fnl >= 0.1) {
