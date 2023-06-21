@@ -4,9 +4,9 @@ public class Fortune {
 
 	public static void main(String[] args) {
 		String[] color = 
-			{"èµ¤","é»„è‰²","é’","ç·‘","ãƒ”ãƒ³ã‚¯","ã‚ªãƒ¬ãƒ³ã‚¸","ç´«"};
+			{"Ô","‰©F","Â","—Î","ƒsƒ“ƒN","ƒIƒŒƒ“ƒW","‡"};
 
-		System.out.print("ã‚ãªãŸã®é‹å‹¢ã¯");
+		System.out.print("‚ ‚È‚½‚Ì‰^¨‚Í");
 
 		try {
 			for(int i = 0; i < 3; i++) {
@@ -17,20 +17,20 @@ public class Fortune {
 		double fnl = Math.random();
 
 		if( fnl >= 0.7) {
-			System.out.println("â˜†å¤§å‰ï¼");
+			System.out.println("‘å‹gI");
 		}else if( fnl >= 0.4) {
-			System.out.println("ä¸­å‰ï¼");
+			System.out.println("’†‹gI");
 		}else if( fnl >= 0.1) {
-			System.out.println("å°å‰ï¼");
+			System.out.println("¬‹gI");
 		}else {
-			System.out.println("å‡¶");
+			System.out.println("‹¥");
 
 		}
 		int fn2 =((int)(fnl * 100)) % 10;
-		System.out.println("ãƒ©ãƒƒã‚­ãƒ¼ã‚«ãƒ©ãƒ¼ã¯" + color[fn2]);
+		System.out.println("ƒ‰ƒbƒL[ƒJƒ‰[‚Í" + color[fn2]);
 	}
 	catch(InterruptedException e) {
-		System.out.println("å‰²ã‚Šè¾¼ã¿ãŒç™ºç”Ÿã—ã¾ã—ãŸ");
+		System.out.println("Š„‚è‚İ‚ª”­¶‚µ‚Ü‚µ‚½");
 	}
 }
 
