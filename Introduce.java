@@ -4,7 +4,7 @@ class Introduce{
   	
   	System.out.println("");
   	
-  	System.out.println("");
+  	System.out.println("山本啓五/阪神応援");
   	
   	System.out.println("木﨑丈斗です。");
   	
