@@ -8,7 +8,7 @@ class Introduce{
   	
   	System.out.println("木﨑丈斗です。");
   	
-  	System.out.println("");
+  	System.out.println("鈴木優です。趣味はゴルフと映画鑑賞です。");
   	
   	System.out.println("池田 充希です。");
   	
