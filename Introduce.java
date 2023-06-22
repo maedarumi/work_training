@@ -12,7 +12,7 @@ class Introduce{
   	
   	System.out.println("池田 充希です。");
   	
-  	System.out.println("");
+  	System.out.println("西牧美咲です。");
   	
   }
 }
